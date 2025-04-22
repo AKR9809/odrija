@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Pink Bizness</title>
+  <style>
+    body {
+      background-color: pink;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    main {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-style: italic;
+    }
+
+    .button-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 24px;
+      background-color: #ff69b4;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-link:hover {
+      background-color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Laipni lūgti manā veikaliņā.
+  </header>
+
+  <main>
+    Mani sauc Odrija Strazda un es pārdodu paštaisītas lietas <br>(Lai paskatītos manus darbus spiediet lejā uz pogas).<br>Ja interesējaties nopirkt kaut ko tad <br>ejiet whatsapp un rakstiet numburam 27067712 un uzrasīšu jums uzaicinājumu uz grupu<br>
+    
+  </main>
+
+  <footer>
+    "Ja tu neticēsi sev, tad nekad nesasniegsi neko."<br>
+    <a href="gallery.html" class="button-link">Spiediet šeit</a>
+  </footer>
+
+</body>
+</html>
